@@ -25,6 +25,16 @@ body {
   text-align: center;
 }
 
+.lb-nav a.lb-prev {
+	margin-left: -40%;
+	background: url(../lightbox/images/prev.png) 48% no-repeat;
+}
+
+.lb-nav a.lb-next {
+	margin-right: -60%;
+	background: url(../lightbox/images/next.png) 48% no-repeat;
+}
+
 /* Styles in the rest of my page */
 
 a {

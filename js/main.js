@@ -5,5 +5,3 @@ lightbox.option({
       'showImageNumberLabel': false,
       'maxWidth': 600
     })
-
-$('.lb-nav').show();
