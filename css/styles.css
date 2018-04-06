@@ -10,6 +10,10 @@ body {
   margin: 0 auto;
 }
 
+img {
+	max-width: 100%;
+}
+
 /* Update styles for regular lightbox */
 
 .lb-data .lb-close {
@@ -75,4 +79,29 @@ a img {
 .gallery .row-3 a {
 	flex-direction: row;
 	flex: 1;
+}
+
+/* Media queries */
+
+@media (max-width: 1000px) {
+
+	.lb-nav a.lb-prev {
+		margin-left: 0;
+		background: url(../lightbox/images/prev.png) left 48% no-repeat;
+	}
+
+	.lb-nav a.lb-next {
+		margin-right: 0;
+		background: url(../lightbox/images/next.png) right 48% no-repeat;
+	}
+
+
+
+
+}
+
+
+@media (max-width: 400px) {
+
+
 }
