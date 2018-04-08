@@ -6,7 +6,7 @@
 
 body {
 	font-family: "Courier New", Courier, monospace;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -50,33 +50,33 @@ a img {
 	margin: 0 auto;
 }
 
-.searchbox {
+.search {
 	text-align: center;
 	padding: 5% 0;
 	margin: 0 auto;
 
 }
 
-.searchbox input {
+.search input {
 	padding: 1% 10%;
 	border: 1px solid lightgray;
 	border-radius: 5px;
 }
 
-.gallery .row-1 {
+.row-1 {
 	display: flex;
 }
 
-.gallery .row-2,
-.gallery .row-3 {
+.row-2,
+.row-3 {
   display: flex;
 	margin: 5% 0;
 }
 
 
-.gallery .row-1 a,
-.gallery .row-2 a,
-.gallery .row-3 a {
+.row-1 a,
+.row-2 a,
+.row-3 a {
 	flex-direction: row;
 	flex: 1;
 }
